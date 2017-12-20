@@ -13,8 +13,6 @@ class Solution(object):
             dic[num] = i
 
 solution = Solution();
-
-#sdsdsd
 numbers = [2, 7, 11, 14, 15];
 target = 9
 print(solution.twoSum(numbers, target))
