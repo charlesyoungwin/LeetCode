@@ -1,7 +1,7 @@
 
 
 class Solution(object):
-    def arrayNesting(self, nums):
+    def arrayNestingNotAc(self, nums):
         """
         :type nums: List[int]
         :rtype: int
@@ -25,7 +25,23 @@ class Solution(object):
 
         return maxLen
 
+    def arrayNestingAc1(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        ans, step, n = 0, 0, len(nums)
+        seen = [False] * n
+        for i in range(n):
+            while not seen[i]:
+                seen[i] = True
+                i, step = nums[i], step + 1
+            ans = max(ans, step)
+            step = 0
+        return ans
+
 if __name__ == '__main__':
     A = [5, 4, 0, 3, 1, 6, 2]
     solu =Solution()
-    print(solu.arrayNesting(A))
+    print(solu.arrayNestingAc1(A))
+
