@@ -23,7 +23,7 @@ class Solution:
         :rtype: int
         """
         maxNum, mask = 0, 0
-        for i in range(31, -1, -1):
+        for i in range(4, -1, -1):
             mask |= (1 << i)
             numSet = set()
             for num  in nums:
@@ -36,4 +36,4 @@ class Solution:
 
 if __name__ == '__main__':
     solu = Solution()
-    print(solu.findMaximumXOR2([3,10,5,25,2,8]))
+    print(solu.findMaximumXOR2([14,11,7,2]))
