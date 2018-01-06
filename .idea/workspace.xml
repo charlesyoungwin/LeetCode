@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46b4b02d-fe2a-4d48-88fb-c4f46b8fc71b" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/LeetCode.iml" afterPath="$PROJECT_DIR$/.idea/LeetCode.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/144BinaryTreePreorderTraversal/144BinaryTreePreorderTraversal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/357CountNumbersWithUniqueDigits/357CountNumbersWithUniqueDigits.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/445AddTwoNumbersII/445AddTwoNumbersII.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/46Permutations.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/554BrickWall/554BrickWall.py" />
+>>>>>>> 233345a5d3d02419c01199e18ba67740a6fc61a3
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,31 +30,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="498DiagonalTraverse.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/498DiagonalTraverse/498DiagonalTraverse.py">
+      <file leaf-file-name="445AddTwoNumbersII.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/445AddTwoNumbersII/445AddTwoNumbersII.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="266">
               <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+=======
+            <state relative-caret-position="340">
+              <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+>>>>>>> 233345a5d3d02419c01199e18ba67740a6fc61a3
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="343IntegerBreak.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/343IntegerBreak/343IntegerBreak.py">
+      <file leaf-file-name="46Permutations.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/46Permutations.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="323">
               <caret line="17" column="71" lean-forward="false" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
+=======
+            <state relative-caret-position="119">
+              <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="14" selection-end-column="52" />
+>>>>>>> 233345a5d3d02419c01199e18ba67740a6fc61a3
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="539MinimumTimeDifference.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/539MinimumTimeDifference/539MinimumTimeDifference.py">
+      <file leaf-file-name="144BinaryTreePreorderTraversal.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/144BinaryTreePreorderTraversal/144BinaryTreePreorderTraversal.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="456">
               <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+=======
+            <state relative-caret-position="287">
+              <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+>>>>>>> 233345a5d3d02419c01199e18ba67740a6fc61a3
               <folding />
             </state>
           </provider>
@@ -62,8 +85,12 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>stack</find>
+    </findStrings>
     <replaceStrings>
       <replace>maxNum</replace>
+      <replace>queue</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -106,14 +133,27 @@
         <option value="$PROJECT_DIR$/498DiagonalTraverse/498DiagonalTraverse.py" />
         <option value="$PROJECT_DIR$/343IntegerBreak/343IntegerBreak.py" />
         <option value="$PROJECT_DIR$/539MinimumTimeDifference/539MinimumTimeDifference.py" />
+        <option value="$PROJECT_DIR$/357CountNumbersWithUniqueDigits/357CountNumbersWithUniqueDigits.py" />
+        <option value="$PROJECT_DIR$/554BrickWall/554BrickWall.py" />
+        <option value="$PROJECT_DIR$/144BinaryTreePreorderTraversal/144BinaryTreePreorderTraversal.py" />
+        <option value="$PROJECT_DIR$/445AddTwoNumbersII/445AddTwoNumbersII.py" />
+        <option value="$PROJECT_DIR$/592FractionAdditionAndSubstraction/592FractionAdditionAndSubtraction.py" />
+        <option value="$PROJECT_DIR$/46Permutations.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="533" />
     <option name="y" value="104" />
     <option name="width" value="1122" />
     <option name="height" value="888" />
+=======
+    <option name="x" value="436" />
+    <option name="y" value="187" />
+    <option name="width" value="993" />
+    <option name="height" value="720" />
+>>>>>>> 233345a5d3d02419c01199e18ba67740a6fc61a3
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -133,8 +173,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="Scratches" />
+=======
+      <pane id="Scratches" />
+      <pane id="Scope" />
+>>>>>>> 233345a5d3d02419c01199e18ba67740a6fc61a3
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -227,6 +272,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="554BrickWall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="539MinimumTimeDifference" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -242,6 +301,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="498DiagonalTraverse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="445AddTwoNumbersII" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="357CountNumbersWithUniqueDigits" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -273,6 +360,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="144BinaryTreePreorderTraversal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -299,88 +400,88 @@
       <recent name="D:\codePrac\python\LeetCode\508MostFrequentSubtreeSum" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.539MinimumTimeDifference">
-    <configuration default="false" name="623addOneRowToTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.46Permutations">
+    <configuration default="false" name="357CountNumbersWithUniqueDigits" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/623AddOneRowToTree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/357CountNumbersWithUniqueDigits" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LeetCode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/623AddOneRowToTree/623addOneRowToTree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/357CountNumbersWithUniqueDigits/357CountNumbersWithUniqueDigits.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="216CombinationSumIII" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="554BrickWall" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/216CombinationSumIII" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/554BrickWall" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LeetCode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/216CombinationSumIII/216CombinationSumIII.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/554BrickWall/554BrickWall.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="498DiagonalTraverse" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="144BinaryTreePreorderTraversal" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/498DiagonalTraverse" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/144BinaryTreePreorderTraversal" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LeetCode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/498DiagonalTraverse/498DiagonalTraverse.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/144BinaryTreePreorderTraversal/144BinaryTreePreorderTraversal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="343IntegerBreak" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="445AddTwoNumbersII" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/343IntegerBreak" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/445AddTwoNumbersII" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LeetCode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/343IntegerBreak/343IntegerBreak.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/445AddTwoNumbersII/445AddTwoNumbersII.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="539MinimumTimeDifference" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="46Permutations" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/539MinimumTimeDifference" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LeetCode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/539MinimumTimeDifference/539MinimumTimeDifference.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/46Permutations.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -520,19 +621,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.623addOneRowToTree" />
-      <item index="1" class="java.lang.String" itemvalue="Python.216CombinationSumIII" />
-      <item index="2" class="java.lang.String" itemvalue="Python.498DiagonalTraverse" />
-      <item index="3" class="java.lang.String" itemvalue="Python.343IntegerBreak" />
-      <item index="4" class="java.lang.String" itemvalue="Python.539MinimumTimeDifference" />
+      <item index="0" class="java.lang.String" itemvalue="Python.357CountNumbersWithUniqueDigits" />
+      <item index="1" class="java.lang.String" itemvalue="Python.554BrickWall" />
+      <item index="2" class="java.lang.String" itemvalue="Python.144BinaryTreePreorderTraversal" />
+      <item index="3" class="java.lang.String" itemvalue="Python.445AddTwoNumbersII" />
+      <item index="4" class="java.lang.String" itemvalue="Python.46Permutations" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.539MinimumTimeDifference" />
-        <item index="1" class="java.lang.String" itemvalue="Python.343IntegerBreak" />
-        <item index="2" class="java.lang.String" itemvalue="Python.498DiagonalTraverse" />
-        <item index="3" class="java.lang.String" itemvalue="Python.216CombinationSumIII" />
-        <item index="4" class="java.lang.String" itemvalue="Python.623addOneRowToTree" />
+        <item index="0" class="java.lang.String" itemvalue="Python.46Permutations" />
+        <item index="1" class="java.lang.String" itemvalue="Python.445AddTwoNumbersII" />
+        <item index="2" class="java.lang.String" itemvalue="Python.144BinaryTreePreorderTraversal" />
+        <item index="3" class="java.lang.String" itemvalue="Python.554BrickWall" />
+        <item index="4" class="java.lang.String" itemvalue="Python.357CountNumbersWithUniqueDigits" />
       </list>
     </recent_temporary>
   </component>
@@ -553,17 +654,32 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="533" y="104" width="1122" height="888" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20848708" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+    <frame x="436" y="187" width="993" height="720" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26305014" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 233345a5d3d02419c01199e18ba67740a6fc61a3
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22432859" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854578" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+=======
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2413793" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854578" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2985782" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> 233345a5d3d02419c01199e18ba67740a6fc61a3
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -651,62 +767,27 @@
           <line>15</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/554BrickWall/554BrickWall.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/445AddTwoNumbersII/445AddTwoNumbersII.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/46Permutations.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="42" />
+      <option name="time" value="49" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/609findDuplicateFileInSystem/findDuplicateFileInSystem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/677MapSumPairs/mapSumPairs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/347TopKFrequentElement/topKFrequentElement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/508MostFrequentSubtreeSum/508MostFrequentSubtreeSum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/32LongestValidParentheses/longestValidParentheses.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/508MostFrequentSubtreeSum/TreeNode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/647palindromicSubstrings/palindromicSubstrings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/609findDuplicateFileInSystem/findDuplicateFileInSystem.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -986,6 +1067,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+<<<<<<< HEAD
+=======
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/539MinimumTimeDifference/539MinimumTimeDifference.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/343IntegerBreak/343IntegerBreak.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="71" lean-forward="false" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
+          <folding />
+>>>>>>> 233345a5d3d02419c01199e18ba67740a6fc61a3
         </state>
       </provider>
     </entry>
@@ -997,18 +1097,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/343IntegerBreak/343IntegerBreak.py">
+    <entry file="file://$PROJECT_DIR$/554BrickWall/554BrickWall.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="323">
           <caret line="17" column="71" lean-forward="false" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
+=======
+        <state relative-caret-position="285">
+          <caret line="43" column="58" lean-forward="false" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
+>>>>>>> 233345a5d3d02419c01199e18ba67740a6fc61a3
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/539MinimumTimeDifference/539MinimumTimeDifference.py">
+    <entry file="file://$PROJECT_DIR$/357CountNumbersWithUniqueDigits/357CountNumbersWithUniqueDigits.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="456">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+=======
+        <state relative-caret-position="238">
+          <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/592FractionAdditionAndSubstraction/592FractionAdditionAndSubtraction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/445AddTwoNumbersII/445AddTwoNumbersII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/144BinaryTreePreorderTraversal/144BinaryTreePreorderTraversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/46Permutations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="14" selection-end-column="52" />
+>>>>>>> 233345a5d3d02419c01199e18ba67740a6fc61a3
           <folding />
         </state>
       </provider>
