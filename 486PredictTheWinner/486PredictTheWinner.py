@@ -1,15 +1,11 @@
 class Solution:
-<<<<<<< HEAD
 
     #not ac, wrong answer ? why?
-=======
->>>>>>> f40a0cf71a8c7b0a2833c63a3adf8cd0784c64ff
     def PredictTheWinner(self, nums):
         """
         :type nums: List[int]
         :rtype: bool
         """
-<<<<<<< HEAD
         if len(nums) <= 2:
             return True
         res1 = 0
@@ -45,12 +41,6 @@ class Solution:
         :type nums: List[int]
         :rtype: bool
         """
-        pass
-
-if __name__ == '__main__':
-    nums = [3606449,6,5,9,452429,7,9580316,9857582,8514433,9,6,6614512,753594,5474165,4,2697293,8,7,1]
-    print(Solution().PredictTheWinner(nums))
-=======
         mem = {}
         return self.helper(nums, 0, len(nums) - 1, mem) >= 0
 
@@ -65,6 +55,5 @@ if __name__ == '__main__':
 if __name__ == '__main__':
     nums = [1, 5, 233, 7]
     nums2 = [1, 5, 2]
-    print(Solution().PredictTheWinner(nums))
-    print(Solution().PredictTheWinner(nums2))
->>>>>>> f40a0cf71a8c7b0a2833c63a3adf8cd0784c64ff
+    print(Solution().PredictTheWinnerV2(nums))
+    print(Solution().PredictTheWinnerV2(nums2))

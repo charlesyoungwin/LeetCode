@@ -25,33 +25,16 @@ class Solution:
         :type words: List[str]
         :rtype: int
         """
-        words = sorted(words, key=lambda x: len(x), reverse=True)
-        res = []
-        alphaList = "abcdefghigklmnopqrstuvwxyz"
+        d = {}
+        for w in words:
+            mask = 0
+            for c in set(w):
+                mask |= (1 << (ord(c) - 97))
+            d[mask] = max(d.get(mask, 0), len(w))
+        return max([d[x] * d[y] for x in d for y in d if not x & y] or [0])
 
-        def helper(Origin, divider):
-
-            if divider == 26:
-                return
-
-            A = []
-            B = []
-            for item in Origin:
-                if alphaList[divider] in item:
-                    A.append(item)
-                else:
-                    B.append(item)
-            if len(A) == 1 or len(B) == 1:
-                length = len(A[0]) * len(B[0])
-                res.append(length)
-            if divider == 25 and len(A) > 1 and len(B) > 1:
-                length = len(A[0]) * len(B[0])
-                res.append(length)
-            helper(A, divider + 1)
-            helper(B, divider + 1)
-        helper(words, 0)
-        return max(res)
 
 if __name__ == '__main__':
-    words = ["abcw", "baz", "foo", "bar", "xtfn", "abcdef"]
+    words = [ 'ababab', 'ab', 'cdcdcd', 'abcd']
     print(Solution().maxProductV2(words))
+    print(Solution().maxProduct(words))
