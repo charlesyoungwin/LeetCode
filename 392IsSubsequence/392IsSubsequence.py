@@ -26,6 +26,7 @@ class Solution:
         :rtype: bool
         """
         t = iter(t)
+
         return all(c in t for c in s)
 
 if __name__ == '__main__':
