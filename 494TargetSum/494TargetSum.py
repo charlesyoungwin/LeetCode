@@ -6,6 +6,7 @@ class Solution:
         :type S: int
         :rtype: int
         """
+        
         mem = {}
 
         def helper(index, value):
