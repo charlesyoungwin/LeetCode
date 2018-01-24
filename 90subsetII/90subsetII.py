@@ -5,7 +5,7 @@ class Solution:
         :rtype: List[List[int]]
         """
         res = []
-        #nums.sort()
+        nums.sort()
         self.backtrack(res, [], nums, 0)
         return res
 
@@ -21,5 +21,5 @@ class Solution:
 
 if __name__ == "__main__":
     solu = Solution()
-    nums = [2, 3, 2]
+    nums = [4, 4, 4, 1, 4]
     print(solu.subsetsWithDup(nums))
