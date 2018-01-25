@@ -16,6 +16,7 @@ class Solution:
         dic['0'] = ''
         dic['1'] = ''
         res = []
+        
         self.backtrack(dic, digits, res, "", 0)
         return res
 
