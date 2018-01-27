@@ -9,7 +9,6 @@ class Solution:
         """
         res = []
         self.dfs(board, word, [], 0, res)
-        print(res)
         return True if res else False
 
     def dfs(self, board, word, path, index, res):
@@ -37,25 +36,25 @@ class Solution:
         else:
             return False
 
-    #solutionV2
+
+    #solution2
     def existV2(self, board, word):
         """
         :type board: List[List[str]]
         :type word: str
         :rtype: bool
         """
-        def dfs(startX, startY, index):
+
+        def dfs(i, j, index):
             if index == len(word):
                 return True
-            if startX < 0 or startY < 0 or startX >= len(board) or startY >= len(board[0]) or word[index] != board[startX][startY]:
+            if i < 0 or j < 0 or i >= len(board) or j >= len(board[0]) or board[i][j] != word[index]:
                 return False
-            tmp = board[startX][startY]
-            board[startX][startY] = '#'
-            res =   dfs(startX + 1, startY, index + 1) or \
-                    dfs(startX - 1, startY, index + 1) or \
-                    dfs(startX, startY + 1, index + 1) or \
-                    dfs(startX, startY - 1, index + 1)
-            board[startX][startY] = tmp
+            tmp = board[i][j]
+            board[i][j] = '#'
+            res = dfs(i + 1, j, index + 1) or dfs(i - 1, j, index + 1) or dfs(i, j - 1, index + 1)\
+                    or dfs(i, j + 1, index + 1)
+            board[i][j] = tmp
             return res
 
         for i in range(len(board)):
@@ -74,5 +73,10 @@ if __name__ == '__main__':
     #             ['a', 'b'],
     #             ['c', 'd']
     #         ]
+
     word = "ABCCE"
+
+    print("solution1")
+    print(Solution().exist(board, word))
+    print("solution2")
     print(Solution().existV2(board, word))
