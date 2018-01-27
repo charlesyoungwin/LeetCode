@@ -1,4 +1,6 @@
 class Solution:
+
+    #time exceeded
     def getPermutation(self, n, k):
         """
         :type n: int
@@ -23,8 +25,34 @@ class Solution:
             self.backtrack(nums, res, temp)
             temp.pop()
 
+    #solution2
+    def getPermutationV2(self, n, k):
+        """
+        :type n: int
+        :type k: int
+        :rtype: str
+        """
+        factorial = []
+        factorial.append(1)
+        fact = 1
+        for i in range(1, n + 1):
+            fact *= i
+            factorial.append(fact)
+
+        number = []
+        for i in range(1, n + 1):
+            number.append(i)
+        k -= 1
+        res = ""
+        for i in range(1, n + 1):
+            inx = k // factorial[n - i]
+            k -= inx * factorial[n - i]
+            res += str(number[inx])
+            number.pop(inx)
+        return res
 
 if __name__ == '__main__':
-    n = 9
-    k = 54494
+    n = 7
+    k = 245
     print(Solution().getPermutation(n, k))
+    print(Solution().getPermutationV2(n, k))
