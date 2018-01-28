@@ -28,6 +28,7 @@ class Solution:
                             ans.append([nums[i]] + item)
                 res = []
         ans = []
+        
         helper(sorted(nums), [], ans)
         return ans
 
