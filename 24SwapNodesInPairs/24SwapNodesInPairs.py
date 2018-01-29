@@ -10,20 +10,29 @@ class Solution:
         :type head: ListNode
         :rtype: ListNode
         """
-        start = head
-        self.helper(start)
+        head = self.helper(head)
         return head
+        
 
 
     def helper(self, head):
         if not head or not head.next:
             return head
-        tmp = head.next.next
-        head.next.next = head
-        head.next = tmp
+        newHead = head.next       
+        head.next = newHead.next
+        newHead.next = head
         head.next = self.helper(head.next)
-        return head
+        return newHead
 
+    #solution2 
+    def swapPairsV2(self, head):
+        if not head: return None
+        p1, p2 = head, head.next
+        while p2:
+            p1.val, p2.val = p2.val, p1.val
+            p1 = p2.next
+            p2 = p1.next if p1 else p1
+        return head
 
 if __name__ == '__main__':
     head = ListNode(1)
@@ -31,7 +40,7 @@ if __name__ == '__main__':
     head.next.next = ListNode(4)
     head.next.next.next = ListNode(3)
     head.next.next.next.next = None
-    head = Solution().swapPairs(head)
+    head = Solution().swapPairsV2(head)
     while head:
         print(head.val, end=" ")
         head = head.next
