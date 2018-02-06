@@ -12,10 +12,22 @@ class Solution:
         :rtype: ListNode
         """
         carry = 0
-        dummy = ListNode(0)
-        while l1 and l2:
-            value = l1.val + l2.val
-            node = ListNode(value % 10 + carry)
+        dummy = head = ListNode(0)
+        while l1 or l2 or carry:
+            v1 = v2 = 0
+            if l1:
+                v1 = l1.val
+                l1 = l1.next
+            if l2:
+                v2 = l2.val
+                l2 = l2.next
+            value = v1 + v2 + carry
+            node = ListNode(value % 10)
             carry = value // 10
-            l1 = l1.next
-            l2 = l2.next
+            head.next = node
+            head = head.next
+        head.next = None
+        return dummy.next
+
+
+
